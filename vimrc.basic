@@ -39,3 +39,6 @@ set incsearch
 " searches are case insensitive unless they contain at least one capital letter
 set ignorecase
 set smartcase
+
+" set always keep 5 lines around mouse cursor
+set so=5
