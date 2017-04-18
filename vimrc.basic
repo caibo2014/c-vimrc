@@ -42,3 +42,12 @@ set smartcase
 
 " set always keep 5 lines around mouse cursor
 set so=5
+
+" keymap
+nmap <C-i> o<Esc>k
+nmap <C-o> O<Esc>j
+nmap <tab> V>
+nmap <s-tab> V<
+vmap <tab> >gv
+vmap <s-tab> <gv
+
