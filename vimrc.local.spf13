@@ -1,0 +1,12 @@
+set mouse-=a
+set nofoldenable
+let g:neocomplete#disable_auto_complete=1
+if has("cscope")
+    set csto=1
+    set cst
+    set nocsverb
+    if filereadable("cscope.out")
+        cs add cscope.out
+    endif
+    set csverb
+endif
