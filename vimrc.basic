@@ -42,6 +42,15 @@ set smartcase
 
 " set always keep 5 lines around mouse cursor
 set so=5
+" mouse select not turn in visual mode
+set mouse-=a
+" no fold compress enable
+set nofoldenable
+" in vim8.0+ not keep undo file
+set noundofile
+" set nobackup
+" set nowritebackup
+
 
 " keymap
 nmap <C-i> o<Esc>k
