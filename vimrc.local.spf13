@@ -1,3 +1,4 @@
+let g:spf13_bundle_groups=['general', 'neocomplete', 'programming', 'ruby', 'python', 'go', 'javascript', 'html', 'misc', 'writing']
 set mouse-=a
 set nofoldenable
 let g:neocomplete#disable_auto_complete=1
