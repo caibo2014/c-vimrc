@@ -1,2 +1,5 @@
 test
-*.txt
+test.txt
+test.c
+test.h
+test.o
